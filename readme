@@ -1,0 +1,7 @@
+lets build with this <command>
+
+    docker build -t dockeragentlin:latest -f Dockerfile.linux .
+
+    Run our container with <i class="fa fa-th-list
+    
+    docker run -e AZP_URL=<Azure DevOps instance> -e AZP_TOKEN=<PAT token> -e AZP_AGENT_NAME=<Agent name> dockeragentlin:latest 
